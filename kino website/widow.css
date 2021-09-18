@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 65px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    padding: 13px;
+}
+nav ul input{
+    margin: 0px 50px;
+    width: 230px;
+    height: 5.5vh;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 10px;
+    outline: none;
+   
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li a:hover{
+  color: white;
+}
+.container{
+    width: 100%;
+    max-height: 500vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo{
+    margin: 25px;
+}
+.information{
+    font-size: 18px;
+}
+.trailer{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 25px;
+    flex-direction: column;
+}
+.trailer div{
+    margin-left: 27px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.trailer div a{
+    color: blue;
+    text-decoration: none;
+}
