@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    position: absolute;
+    z-index: 2;
+    transform: translate(250px, 110px); 
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(19, 18, 18) , rgb(33, 38, 99));
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container .box{
+    width: 65%;
+    height: 500px;
+    background-color: rgb(36, 36, 66);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    left: 18%;
+    top: 15%;
+}
+.first{
+    width: 55%;
+    height: 100%;
+    background-color:darkorange;
+    border-radius: 0px 50% 50% 0px  ;
+}
+.second{
+    width:38%;
+    min-height:500px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: stretch;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.panel{
+    margin-top: 25px;
+    width: 110%;
+    height: 50px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.panel p{
+    color:darkorange ;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 120px;
+}
+.panel i{
+    padding: 15px 25px 0px 0px ;
+    font-size: 20px;
+    cursor: pointer;
+}
+.text{
+    margin: 80px 0px 25px 0px;
+    width: 100%;
+    height: 80px;
+}
+.text .one{
+    color: white;
+    font-size: 25px;
+}
+.text .two{
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.price{
+    display: flex;
+    height: 30px;
+    margin-top: 25px;
+}
+.price p{
+    font-size: 25px;
+    padding: 0px 25px 0px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.size{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 80px 0px 25px 0px;
+    color: white;center;
+    margin-top: 58px;
+}
+.size a{
+    text-decoration: none;
+    color: white;
+}
+
+.size a:hover{
+    color: red;
+}
+.color{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.yellow{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+.black{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.blue{
+    background-color: rgb(90, 56, 245);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.money{
+    margin: 25px 100px 0px -30px ;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right: 40px;
+}
+.buy{
+    width: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card{
+    width: 120px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.money a{
+    text-decoration: none;
+    color: white;
+}
