@@ -6,7 +6,8 @@
 img{
     position: absolute;
     z-index: 2;
-    transform: translate(250px, 110px); 
+    margin: 200px 0px 0px 290px;
+    transform: rotateZ(20deg);
 }
 .container{
     width: 100%;

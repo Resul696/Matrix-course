@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/main-banner-bg1.ef89b8587c6f8583caf53854170a713a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section header{
+    
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+ img{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.container{
+    width: 87%;
+    height: 90px;
+    position: absolute;
+    left: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .search{
+    width: 20%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container .search .icon{
+    color: white;
+    position: absolute;
+    left: 25px;
+}
+.container .search input{
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid silver;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    outline: none;
+    color: white;
+}
+.nav-list{
+    width: 40%;
+    height: 90px;
+}
+.nav-list .icon{
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+.nav-list ul{
+    width: 100%;
+    height: 90px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    font-weight:500;
+    color: white;
+    font-size: 18px;
+}
+.nav-list ul li a:hover{
+    color: #30eded;
+    transition: 0.5s;
+}
+    .login{
+        width: 30%;
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .login p{
+         color: white;
+         font-size: 18px;
+    }
+    .login p:hover{
+        color: #30eded;
+        transition: 0.5s;
+    }
+    .login p i{
+        font-size: 18px;
+        margin: 8px 5px 0px 0px;
+    }
+    .login button{
+        width: 180px;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 17px;
+        color: #30eded;
+        background-color: transparent;
+        border: 1px solid #30eded;
+    }
+    .login button:hover{
+        background-color: #30eded;
+        color: white;
+        transition: 0.5s;
+    }
+    section .img{
+        width: ;
+        background-image: url('./img/main-banner-bg1.ef89b8587c6f8583caf53854170a713a.jpg');
+        background-size: cover;
+    }
+   .text{
+       width: 100%;
+       height: 500px;
+       margin-top:50px ;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .text .find{
+       color: white;
+       font-size: 50px;
+   }
+   .text .find span{
+       color: #30eded;
+   }
+   .text .explore{
+       font-size: 19px;
+       margin: 20px 0px;
+       color: #bcbcbc;
+   }
+   .text .big-in{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+   }
+   .text .big-in .search-in{
+       position: relative;
+   }
+   .text .big-in .search-in input{
+      width: 330px;
+      height: 60px;
+      border-radius: 30px 0px 0px 30px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      padding: 0px 0px 0px 58px;
+      border-right:2px solid #30eded;
+   }
+      .text .big-in .search-in .icon{
+          color: rgb(31, 30, 30);
+          position: absolute;
+          font-size: 20px;
+          left: 28px;
+          top: 20px;
+    }
+    .text .big-in .location{
+        position: relative;
+    }
+    .text .location input{
+      width: 250px;
+      height: 60px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      padding: 0px 0px 0px 42px;
+      border-right:2px solid #30eded;
+    }
+    .text .big-in .location .icon{
+    position: absolute;
+    font-size: 23px;
+    left: 15px;
+    top: 15px;
+    }
+    .text .big-in .bars{
+        position: relative;
+    }
+    .text .big-in .bars input{
+        width: 450px;
+        height: 60px;
+        border: none;
+        border-radius: 0px 30px 30px 0px;
+        outline: none;
+        font-size: 16px;
+        padding: 0px 0px 0px 42px;
+    }
+    .text .big-in .bars .icon{
+        position: absolute;
+        font-size: 23px;
+        left: 15px;
+        top: 18px;
+    }
+    .text .big-in .bars button{
+        width: 160px;
+        padding: 13px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: 500;
+        color: white;
+        background-color: #30eded;
+        position: absolute;
+        right: 15px;
+        top: 4px;
+    }
+    .text .big-in .bars select{
+        width: 130px;
+        position: absolute;
+        left: 65px;
+        top: 18px;
+        font-size: 17px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .text .popular{
+        width: 980px;
+        display: flex;
+        margin: 20px 0px;
+    }
+    .text .popular ul{
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    }
+    .text .popular ul li a{
+        font-weight:600;
+        color: #fff;
+        font-size: 15px;
+        font-family: "Work Sans",sans-serif;
+    }
+    .text .popular ul p{
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    section .sec2{
+        max-width: 1235px;
+        height: 100vh;
+    }
+    .container2{
+       width: 90%;
+       height: 600px;
+       margin: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    .container2 .name{
+        width: 60%;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+     
+    }
+    .container2 .name h1{
+        font-size: 30px;
+        font-weight: 700;
+        font-family:"Work Sans",sans-serif ;
+    }
+    .container2 .name h1 span{
+        color: #30eded;
+    }
+    .name p{
+        color: #666;
+        margin-bottom: 15px;
+    }
+    .container2 .box{
+        width: 100%;
+        height: 330px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .container2 .box .box1{
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid silver;
+        border-radius: 4px;
+    }
+    .container2 .box .box1:hover{
+        border-color: #30eded;
+        transition: 0.5s;
+    }
+    .container2 .box .box1 .icon{
+        color: #30eded;
+        font-size: 80px;
+    }
+    .container2 .box .box1 .lunch h1{
+        font-size: 25px;
+    }
+    .container2 .box .box1 .lorem{
+        width: 70%;
+        margin-left: 30px;
+    }
+    .container2 .box .box1 .get a{
+        font-size: 20px;
+       text-decoration: none;
+       color: #30eded;
+       padding-right: 35px;
+    }
+  
