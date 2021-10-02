@@ -1,0 +1,104 @@
+section.sec-2{
+    width: 100%;
+    height: 180vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    .cont-2{
+        width: 80%;
+        height: 180vh;
+        @include column();
+        .title{
+            width: 100%;
+            height: 20%;
+            margin-top: 120px;
+            .title-1{
+                width: 30%;
+                height: 50%;
+                margin: auto;
+                h1{
+                font-size: 1.9em;
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: 800;
+                text-transform: capitalize;
+                line-height: 1.5;
+                color: black;
+                }
+            }
+            .title-2{
+                width: 45%;
+                height: 50%;
+                font-size: 18px;
+                margin: auto;
+                @include center();
+                p{
+                    font-family: "Poppins", sans-serif;
+                    text-align: center;
+                    line-height: 30px;
+                    color: black;
+                }
+            }
+        }
+        .box{
+            width: 100%;
+            height: 100%;
+            @include sa();
+            flex-wrap: wrap;
+            .box1{
+                width: 350px;
+                height: 380px;
+                margin: 15px;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0px 20px 60px 0px rgba(22, 26, 36, 0.2);
+                @include column();
+                .icon{
+                    text-align: center;
+                    color: #fff;
+                    border-radius: 50%;
+                    width: 120px;
+                    height: 120px;
+                    line-height: 130px;
+                    font-size: 70px;
+                    background: #265bfb;
+                    font-weight: 900;
+                }
+                h1{
+                font-size: 1.5em;
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: 790;
+                text-transform: capitalize;
+                line-height: 3em;
+                color: black;
+                }
+                .text{
+                    width: 80%;
+                    p{
+                        font-family: "Roboto", sans-serif;
+                        text-align: center;
+                        line-height: 30px;
+                        color: black;
+                    }
+                    
+                    
+                }
+                
+            }
+            .box1:hover{
+                background-color: #265bfb;
+                transition: 0.3s;
+                .icon{
+                    background-color: #007bff;
+                }
+                h1{
+                    color: white;
+                }
+                p{
+                    color: white;
+                }
+            }
+        }
+    }
+}

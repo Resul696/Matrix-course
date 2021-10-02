@@ -1,0 +1,416 @@
+/*
+*  html5resetcss
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+section.sec-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.sec-1 header {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+section.sec-1 header nav {
+  width: 80%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.sec-1 header nav .logo {
+  text-transform: uppercase;
+}
+
+section.sec-1 header nav .panel {
+  width: 50%;
+}
+
+section.sec-1 header nav .panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.sec-1 header nav .panel ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.7;
+  background-color: #265bfb;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .text {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .text div {
+  width: 70%;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .text div h1 {
+  font-size: 2.9em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.container .text div p {
+  line-height: 30px;
+  margin-left: 45px;
+}
+
+.container .text div button {
+  padding: 16px 30px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.container .text div button:hover {
+  background-color: white;
+  color: blue;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .photo {
+  width: 50%;
+  height: 120%;
+}
+
+.container .photo img {
+  margin-left: 175px;
+  height: 650px;
+}
+
+section.sec-2 {
+  width: 100%;
+  height: 180vh;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.sec-2 .cont-2 {
+  width: 80%;
+  height: 180vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.sec-2 .cont-2 .title {
+  width: 100%;
+  height: 20%;
+  margin-top: 120px;
+}
+
+section.sec-2 .cont-2 .title .title-1 {
+  width: 30%;
+  height: 50%;
+  margin: auto;
+}
+
+section.sec-2 .cont-2 .title .title-1 h1 {
+  font-size: 1.9em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1.5;
+  color: black;
+}
+
+section.sec-2 .cont-2 .title .title-2 {
+  width: 45%;
+  height: 50%;
+  font-size: 18px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.sec-2 .cont-2 .title .title-2 p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+
+section.sec-2 .cont-2 .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.sec-2 .cont-2 .box .box1 {
+  width: 350px;
+  height: 380px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 20px 60px 0px rgba(22, 26, 36, 0.2);
+          box-shadow: 0px 20px 60px 0px rgba(22, 26, 36, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.sec-2 .cont-2 .box .box1 .icon {
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  line-height: 130px;
+  font-size: 70px;
+  background: #265bfb;
+  font-weight: 900;
+}
+
+section.sec-2 .cont-2 .box .box1 h1 {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 790;
+  text-transform: capitalize;
+  line-height: 3em;
+  color: black;
+}
+
+section.sec-2 .cont-2 .box .box1 .text {
+  width: 80%;
+}
+
+section.sec-2 .cont-2 .box .box1 .text p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+
+section.sec-2 .cont-2 .box .box1:hover {
+  background-color: #265bfb;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section.sec-2 .cont-2 .box .box1:hover .icon {
+  background-color: #007bff;
+}
+
+section.sec-2 .cont-2 .box .box1:hover h1 {
+  color: white;
+}
+
+section.sec-2 .cont-2 .box .box1:hover p {
+  color: white;
+}
+/*# sourceMappingURL=sass.css.map */
